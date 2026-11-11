@@ -1,0 +1,39 @@
+ECODEM CARE — SITIO WEB ESCOLAR
+================================
+
+ARCHIVOS
+- index.html: estructura y textos del sitio.
+- styles.css: colores, tipografías, distribución y adaptación a celular.
+- script.js: menú móvil y formulario de contacto.
+
+CÓMO ABRIRLO DESDE CERO
+1. Descarga y descomprime el archivo ZIP.
+2. Abre la carpeta "ecodem_care_web".
+3. Haz doble clic en index.html. Se abrirá en tu navegador.
+4. Para editarlo, abre la carpeta con Visual Studio Code (opcional) o usa un editor de texto.
+5. Guarda los cambios y actualiza el navegador.
+
+CÓMO PUBLICARLO GRATIS CON GITHUB PAGES
+1. Crea una cuenta en GitHub.
+2. Crea un repositorio público llamado ecodem-care.
+3. Sube index.html, styles.css, script.js y este LEEME.txt a la raíz del repositorio.
+4. En el repositorio entra a Settings > Pages.
+5. En "Build and deployment", selecciona "Deploy from a branch".
+6. Elige la rama main y la carpeta /(root), y guarda.
+7. Espera a que GitHub Pages publique la página. La dirección aparecerá en esa misma sección.
+
+PERSONALIZACIÓN
+- Cambia los textos en index.html.
+- Cambia colores al inicio de styles.css, en :root.
+- Cambia el correo del formulario: en script.js, reemplaza mailto:? por mailto:tu-correo@ejemplo.com.
+- Para poner un logo real, reemplaza la letra E dentro de <span class="brand-mark">E</span> por una imagen.
+
+IMPORTANTE SOBRE EL PROTOTIPO
+La muestra de gel escolar descrita en esta web es solo demostrativa. No es un cosmético,
+no debe aplicarse en la piel ni presentarse como tratamiento para fatiga, golpes o moretones.
+Un producto tópico real requiere formulación cosmética profesional, pruebas de seguridad,
+conservación, estabilidad y cumplimiento normativo. No reutilices envases que hayan
+contenido pintura, químicos u otras sustancias no aptas para cosméticos.
+
+El formulario no almacena datos en una base de datos. Solo prepara un mensaje en la
+aplicación de correo del visitante.
